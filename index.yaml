@@ -1,20 +1,8 @@
 apiVersion: v1
 entries:
   kubewarden-defaults:
-  - annotations:
-      catalog.cattle.io/auto-install: kubewarden-crds=1.2.2
-      catalog.cattle.io/certified: rancher
-      catalog.cattle.io/display-name: Kubewarden-defaults
-      catalog.cattle.io/hidden: "true"
-      catalog.cattle.io/namespace: cattle-kubewarden-system
-      catalog.cattle.io/os: linux
-      catalog.cattle.io/release-name: rancher-kubewarden-defaults
-      catalog.cattle.io/type: cluster-tool
-      catalog.cattle.io/ui-component: kubewarden
-      catalog.cattle.io/upstream-version: 1.2.6
     apiVersion: v2
-    description: A Helm chart for deploying Kubewarden's default PolicyServer instance
-    digest: 037bdb6955cd9318d2d40e9690c7adf28b96152d6f428c660415aa743764b5df
+    description: A Helm chart for deploying Kubewarden
     home: https://www.kubewarden.io/
     icon: https://www.kubewarden.io/images/icon-kubewarden.svg
     keywords:
