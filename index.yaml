@@ -13,7 +13,6 @@ entries:
       catalog.cattle.io/ui-component: kubewarden
       catalog.cattle.io/upstream-version: 1.2.6
     apiVersion: v2
-    created: "2022-11-25T10:49:54.853944135Z"
     description: A Helm chart for deploying Kubewarden's default PolicyServer instance
     digest: 037bdb6955cd9318d2d40e9690c7adf28b96152d6f428c660415aa743764b5df
     home: https://www.kubewarden.io/
